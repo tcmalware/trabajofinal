@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <title>Aquila Air</title>
+</head>
+<body>
+  <!-- NAVEGADOR -->
+  <nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html"><img src="img/vsg.png" style="width: 60%"></a>      
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">MOUSE <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://co.vsglatam.com/pages/contacto1">CONTACTO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://co.vsglatam.com/collections/ofertas">MÁS PRODUCTOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://valqui2003.blogspot.com/">BLOG</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Registro de reclamos.html">RECLAMOS</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </nav>
+  
+ <!--  FIN NAVEGADOR -->
+ 
+ <!-- INICIO  -->
+ <body>
+  <div class="card-deck" >
+    <div class="card body-dark mb-3" style="max-width: 30rem; height: 685px;" >
+      <div class="card-header"></div>
+      <div class="card" style="max-width: 40rem; height: 605px">
+        <img class="card-img-top" src="img/aquilaAir2.jpg" height="400px" alt="Card image cap">
+        <div class="card-body">
+        <br>
+        <h5 class="card-title">Sensor y personalización</h5>
+          <p class="card-text">Cuenta con el mejor sensor del momento, se trata del PMW3389, DPI de hasta 16,000 e IPS 400. Simplemente Inigualable. La verdad ésto es overkill. Pero...
+            <br>Crea estilos nunca antes vistos combinando los 7 colores de las AQUILA SKINS, junto a las luces RGB configurables.</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card border-dark mb-3" style="margin-left: auto; max-width: 30rem; height: 686px;" >
+        <div class="card-header"></div>
+        <div class="card" style="max-width: 40rem; height: 605px">
+          <video id="video" src="mouse2.mp4" width="447px" height="450px" controls autoplay></video>
+          <div>
+            <button id="play">Play</button>
+            <button id="pausa">Pausa</button>
+          </div>
+          <script>
+              const video= document.getElementById('video');
+              const play= document.getElementById('play');
+              const pausa= document.getElementById('pausa');
+
+              play.addEventListener('click',()=>{
+                  video.play();
+              })
+              pausa.addEventListener('click',()=>{
+                  video.pause();
+              })
+          </script>
+          <div class="card-body">
+            <p class="card-text">Gracias a los skates de material 100% PTFE (teflón) disfrutarás de movimientos de mouse más suaves. Si te preocupa la durabilidad porque juegas todo el día, tranquilo, Aquila AIR trae un set de skates adicionales. Sea cual sea el reto que enfrentes, siempre serás ágil, ligero y letal.</p>
+          </div>
+        </div>
+      </div>
+    <div class="card border-dark mb-3" style="margin-left: auto; max-width: 30rem; height: 686px;" >
+      <div class="card-header"></div>
+      <div class="card" style="max-width: 40rem; height: 605px">
+        <iframe width="450" height="400" src="https://www.youtube.com/embed/aeFLGj3TYZc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="card-body">
+          <h5 class="card-title">Review</h5>
+          <p class="card-text">Dedicado a los valientes, soñadores y perseverantes, a los que trasnocharon por alcanzar la victoria, a los guerreros caídos que lo dieron todo en el campo de batalla pero nunca se darán por vencidos, a los aventureros, a los creativos, a quienes fluyen con el arte y no se conforman con un solo color.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

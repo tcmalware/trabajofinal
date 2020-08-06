@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <title>Principal</title>
+</head>
+<body>
+  <!-- NAVEGADOR -->
+  <nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html"><img src="img/vsg.png" style="width: 60%"></a>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">MOUSE <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://co.vsglatam.com/pages/contacto1">CONTACTO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://co.vsglatam.com/collections/ofertas">MÁS PRODUCTOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://valqui2003.blogspot.com/">BLOG</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Registro de reclamos.html">RECLAMOS</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </nav>
+  
+ <!--  FIN NAVEGADOR -->
+ 
+ <!-- INICIO  -->
+ <body class="cuerpo">
+    <div class="aea">
+      <div class="card-deck" >
+        <div class="card body-dark mb-3" style="max-width: 34rem; height: 21rem;">
+          <div class="card-header">Ficha de reclamos</div>
+          <div class="card" style="max-width: 40rem; height: 605px">
+            <div id="header">
+              <div id="cuerpo">
+                  <div id="formulario">
+                      <form action="" name="formRegistro">
+                          <table border="0" align="center">
+                              <tr>
+                                  <td colspan="2" class="registro"><font color="white">Registro de reclamo </font></td>
+                              </tr>
+                              <tr>
+                                  <td class="descripcion">Código del producto: </td>
+                                  <td class="descripcion">
+                                      <input  type="number" name="ruc" maxlength="11" placeholder="000000000000000000" required>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td class="descripcion">Nombres: </td>
+                                  <td class="descripcion">
+                                      <input type="text" name="nombre" required>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td class="descripcion">Apellidos: </td>
+                                  <td class="descripcion">
+                                      <input type="text" name="apellidos" required>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td class="descripcion">Rango de edad: </td>
+                                  <td class="descripcion">
+                                      
+                                      <input type="radio" name="estudio" value="1" required>De 12 a 18 años <br>
+                                      <input type="radio" name="estudio" value="1" required>De 18 a 30 años <br>
+                                      <input type="radio" name="estudio" value="1" required>Más de 30 años <br>                              
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td class="descripcion">Producto: </td>
+                                  <td class="descripcion">
+                                      <select name="Ciudad" id="">
+                                          <option value="1">Aquila</option>
+                                          <option value="2">Aquila Air</option>
+                                          <option value="3">Cetus</option>
+                                      </select>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td class="descripcion">Foto del Producto: </td>
+                                  <td class="descripcion">
+                                      <input type="file" name="curriculum" accept=".jpg, .png" >
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td colspan="2" class="registro">
+                                  <input type="submit" name="enviar" value="Enviar Reclamo">
+                                  </td>  
+                              </tr>
+                          </table>
+                      </form>
+                  </div>
+              </div>
+          </div>
+            </div>
+          </div>
+        </div>
+    </div>
+ </body>
+ 
+
+ 
+<!-- FIN INICIO -->
+    
+</html>
+
